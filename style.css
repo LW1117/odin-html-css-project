@@ -146,7 +146,7 @@ header .header-link {
 
 #action-container {
   background-color: #3882f6;
-  color: white;
+  color: #f9faf8;
   display: flex;
   justify-content: space-evenly;
   margin: 75px 200px;
@@ -155,5 +155,12 @@ header .header-link {
 }
 
 #action-container .button {
-  border: 2px solid white;
+  border: 2px solid #f9faf8;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 1rem;
 }
