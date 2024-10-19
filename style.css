@@ -41,6 +41,7 @@ header .header-link {
   padding: 5rem;
   justify-content: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 
 #hero-main {
@@ -98,6 +99,7 @@ header .header-link {
   display: flex;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .information-image-container {
@@ -119,7 +121,8 @@ header .header-link {
 
 #quote-container {
   background-color: #e5e7eb;
-  padding: 100px 500px;
+  padding: 100px 20%;
+  overflow: hidden;
 }
 
 #quote-text {
@@ -128,7 +131,8 @@ header .header-link {
   font-style: italic;
   color: #1f2937;
   text-align: justify;
-  width: 800px;
+  max-width: 800px;
+  margin: auto;
 }
 
 #quote-subtext {
@@ -137,5 +141,5 @@ header .header-link {
   font-style: italic;
   color: #1f2937;
   text-align: right;
-  min-width: fit-content;
+  padding-right: 15%;
 }
