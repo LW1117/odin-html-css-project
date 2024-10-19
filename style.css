@@ -81,3 +81,38 @@ header .header-link {
   justify-content: center;
   align-items: center;
 }
+
+#information-section {
+  padding: 3rem;
+}
+
+#information-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+#information-container {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.information-image-container {
+  width: 150px;
+  height: 200px;
+}
+
+.information-image {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
+
+.information-subtext {
+  color: #6d747e;
+  text-align: center;
+}
