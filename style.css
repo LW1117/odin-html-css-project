@@ -1,3 +1,35 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
+header #header-logo {
+  font-size: 24px;
+  color: #e5e7eb;
+  float: left;
+}
+
+header .header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+  float: right;
 }
